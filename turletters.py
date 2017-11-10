@@ -242,18 +242,20 @@ def turtleLetter(letter,tur):
     elif letter == "W":
 	    pass
     elif letter == "X":
-	tur.setheading(0)
+        tur.setheading(0)
         tur.pu()
         tur.right(45)
         tur.pd()
-        tur.fd(50)
+        tur.fd(55)
         tur.pu()
-        tur.setpos(40, 0)
-        tur.right(90)
+        tur.fd(-55)
+        tur.right(-45)
+        tur.fd(40)
+        tur.right(135)
         tur.pd()
-        tur.fd(50)
+        tur.fd(55)
         tur.pu()
-        tur.setpos(40, 0)
+        tur.fd(-55)
         tur.right(-135)
 
     elif letter == "Y":
