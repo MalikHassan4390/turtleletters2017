@@ -57,7 +57,7 @@ def turtleLetter(letter,tur):
 	    pass
     elif letter == "G":
 	    pass		
-	elif letter == "H":
+    elif letter == "H":
 	    pass
     elif letter == "I":
 	    pass
@@ -115,7 +115,7 @@ window = turtle.Screen()
 tur = turtle.Turtle()
 tur.speed(1)
 turtleLetter("box",tur)
-turtleLetter("A",tur)
+turtleLetter("C",tur)
 
 
 window.exitonclick()
