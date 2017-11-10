@@ -40,10 +40,28 @@ def turtleLetter(letter,tur):
     elif letter == "E":
 	    pass
     elif letter == "F":
-	    pass
+        tur.setheading(0)
+        tur.pu()
+        tur.fd(5)
+        tur.right(90)
+        tur.fd(5)
+        tur.pd()
+        tur.fd(40)
+        tur.right(180)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(30)
+        tur.left(180)
+        tur.fd(30)
+        tur.left(90)
+        tur.fd(18)
+        tur.left(90)
+        tur.fd(25)
+        tur.pu()
+        tur.setpos(40, 0)
     elif letter == "G":
 	    pass		
-	elif letter == "H":
+    elif letter == "H":
 	    pass
     elif letter == "I":
 	    pass
@@ -101,7 +119,8 @@ window = turtle.Screen()
 tur = turtle.Turtle()
 tur.speed(1)
 turtleLetter("box",tur)
-turtleLetter("A",tur)
+turtleLetter("F",tur)
 
 
 window.exitonclick()
+
