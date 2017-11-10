@@ -35,7 +35,21 @@ def turtleLetter(letter,tur):
     elif letter == "B":
 	    pass
     elif letter == "C":
-	    pass
+	tur.penup()
+        tur.right(90)
+        tur.forward(5)
+        tur.right(90)
+        tur.forward(10)
+        tur.pendown()
+        tur.right(-90)
+        tur.forward(30)
+        tur.right(180)
+        tur.forward(30)
+        tur.right(-90)
+        tur.forward(40)
+        tur.right(-90)
+        tur.forward(30)
+        tur.penup()
     elif letter == "D":
 	    pass
     elif letter == "E":
@@ -248,9 +262,11 @@ def turtleLetter(letter,tur):
 window = turtle.Screen()
 tur = turtle.Turtle()
 
+
 tur.speed(1)
 turtleLetter("box",tur)
 turtleLetter("F",tur)
+
 
 
 
